@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(45deg, #8e51ff, #312c85);
+}
+
+div {
+    background-color: transparent;
+    width: 50vw;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+div * {
+    margin: 5px;
+}
+
+input,
+button.taskButton {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: large;
+    border: solid 2px;
+    background-color: transparent;
+}
+
+p {
+    font-size: medium;
+    font-weight: 400;
+}
+
+input:focus {
+    border-style: solid;
+    outline-style: none;
+}
+
+button {
+    background-color: transparent;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #51a2ff;
+    border-color: #51a2ff;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+li * {
+    height: 20px;
+    width: 33%;
+}
+
+input[type="checkbox"] {
+    padding: 10px;
+    appearance: none;
+    width: 20px;
+    border: solid 0.5px black;
+    border-radius: 15%;
+    background-color: inherit;
+}
+
+input:hover,
+input[type="text"]:focus {
+    border-color: #51a2ff;
+    cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+}
+
+input[type="checkbox"]:checked {
+    background-color: #51a2ff;
+    color: #51a2ff;
+    border-color: #51a2ff;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+#delButton {
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    color: #000;
+    border: solid 0.5px black;
+    border-radius: 15%;
+}
+
+#delButton:hover {
+    color: #e7000b;
+    border-color: #e7000b;
+}
