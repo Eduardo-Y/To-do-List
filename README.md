@@ -36,6 +36,11 @@ O foco desta versão foi o gerenciamento de dados no lado do cliente (Client-sid
 
 ---
 
+## Imagem do Projeto
+
+<img width="1365" height="651" alt="image" src="https://github.com/user-attachments/assets/a3c19e19-7952-449f-a334-da12c3ba4091" />
+
+---
 ## 🛠️ Como rodar o projeto
 
 1. Clone este repositório:
